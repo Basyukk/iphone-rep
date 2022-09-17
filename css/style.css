@@ -1,0 +1,278 @@
+* {
+  font-family: "Inter";
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 33px 0;
+  background-color: #0a0a0a;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .nav .menu .menu_item {
+  padding-right: 30px;
+}
+.header .nav .menu .menu_item a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #717171;
+}
+.header .nav .phone {
+  font-weight: 400;
+  font-size: 24px;
+  color: #717171;
+}
+
+.iphone {
+  min-height: 900px;
+  padding: 71px 0 59px 0;
+  background-color: #f5f5f7;
+}
+.iphone h1 {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #490e84;
+}
+.iphone .iphone_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.iphone .iphone_btn {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 70px;
+  background: #490e84;
+  border-radius: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.iphone .iphone_btn:hover {
+  -webkit-transition: 0.9 all;
+  transition: 0.9 all;
+  background: #490e15;
+}
+.iphone .iphone_btn:hover .btn_link {
+  color: #574b63;
+}
+.iphone .iphone_btn .btn_link {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.new {
+  min-height: 450px;
+  padding: 88px 0;
+}
+.new .new_title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #717171;
+}
+.new .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.new .wrapper .text {
+  width: 600px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  margin-top: 53px;
+  color: #0a0a0a;
+}
+.new .wrapper .text span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #0a0a0a;
+}
+
+.choice {
+  min-height: 450px;
+  padding: 90px 0 110px 0;
+}
+.choice h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #717171;
+}
+.choice .choice_wrapper {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.choice .choice_wrapper .choice_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.choice .choice_wrapper .choice_block .choice_descr {
+  margin-top: 20px;
+}
+.choice .choice_wrapper .choice_block .choice_descr .title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0a0a0a;
+}
+.choice .choice_wrapper .choice_block .choice_descr .sub {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #0a0a0a;
+}
+
+.forma {
+  min-height: 500px;
+}
+.forma .forma_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #574b63;
+}
+.forma .forma_wrapper .contacts {
+  margin: 0 auto;
+}
+.forma .forma_wrapper .contacts h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+.forma .forma_wrapper .contacts .contacts_input {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  background-color: #574b63;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+.forma .forma_wrapper .contacts .contacts_input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.forma .forma_wrapper .contacts .contacts_input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.forma .forma_wrapper .contacts .contacts_input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.forma .forma_wrapper .contacts .contacts_input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.forma .forma_wrapper .contacts .contacts_input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.forma .forma_wrapper .contacts p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 33px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+.forma .forma_wrapper .contacts .forma_btn {
+  width: 240px;
+  height: 50px;
+  display: block;
+  background: #ffffff;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  border: none;
+  margin: 0 auto;
+  color: #490e84;
+}
+
+footer {
+  padding: 33px 0;
+  background-color: #0a0a0a;
+}
+footer .footer_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer_wrapper .footer_link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #717171;
+}
+footer .footer_wrapper .phone {
+  font-weight: 400;
+  font-size: 24px;
+  color: #717171;
+}
